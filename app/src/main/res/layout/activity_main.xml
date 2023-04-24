@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/shakti_splashscreen1"
+
     tools:context=".MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,11 +30,11 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginStart="103dp"
+            
             android:layout_marginEnd="208dp"
             android:layout_marginBottom="131dp"
             android:background="@drawable/ic_slice_left_bottom"
-            android:rotationX="-180" />
+            android:rotationX="180" />
 
         <ImageButton
             android:layout_width="100dp"
@@ -59,6 +60,7 @@
             android:rotationY="180" />
 
         <ImageButton
+            android:id="@+id/helpButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentEnd="true"
